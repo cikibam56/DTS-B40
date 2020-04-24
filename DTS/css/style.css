@@ -1,0 +1,132 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+
+
+/* header {
+    height: 80px;
+    width: 100%;
+    background-color: #050510;
+    position: fixed;
+    opacity: 0.9;
+    top: 0;
+    z-index: 1000;
+} */
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* 
+.logo-header {
+    float: left;
+    margin: 20px 0;
+}
+
+.logo-header img {
+    height: 40px;
+    width: 40px;
+}
+
+.list-header li {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 16px;
+    float: right;
+    margin: 30px 25px;
+} */
+
+.baner {
+    /* background-image: url(https://neptech.com.pk/wp-content/uploads/2016/02/unsplash-high-quality-hd-banner-backgound-images-stock-photos-free-tab-iphone-mac-desk-topview-download.jpg); */
+    background-color: #f39f95;
+    padding: 180px 0 100px 0;
+    color: white;
+    text-align: left;
+    background-size: cover;
+}
+
+.judul {
+    width: 45%;
+    height: 100%;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.judul h1 {
+    font-size: 90px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+
+.subjudul {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: rgb(63, 61, 61);
+}
+
+.judul span {
+    color: #000;
+}
+
+.subjudul p {
+    line-height: 30px;
+}
+
+.judul a {
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 12px 30px;
+}
+
+.tulisan {
+    display: flex;
+}
+
+@keyframes slidefade {
+    100% {
+        opacity: 1;
+        margin: 0;
+    }
+}
+
+.gambar {
+    width: 50%;
+    height: 100%;
+}
+
+.gambar img {
+    width: 100%;
+    height: 110%;
+}
