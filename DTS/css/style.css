@@ -15,10 +15,6 @@ div {
     padding: 0;
 }
 
-body {
-    font-family: "Lucida Grande";
-}
-
 li {
     list-style: none;
 }
@@ -30,7 +26,6 @@ a {
 
 
 /*--------------------------------------------- header @cepu ----------------------------------------------------------------------------------------------*/
-
 
  header {
     height: 120px;
@@ -98,72 +93,89 @@ a {
 }
 /*---------------------------------------------------akhir dari header-------------------------------------------------------------------------------------------*/
 
-.baner {
-    /* background-image: url(https://neptech.com.pk/wp-content/uploads/2016/02/unsplash-high-quality-hd-banner-backgound-images-stock-photos-free-tab-iphone-mac-desk-topview-download.jpg); */
-    background-color: #f39f95;
-    padding: 180px 0 100px 0;
-    color: white;
-    text-align: left;
-    background-size: cover;
+/* ---------------------------------------Awal Banner @ardhika------------------------------ */
+.banner {
+    background-color: #ffadad;
+    padding: 150px 0 100px 0;
 }
 
-.judul {
-    width: 45%;
-    height: 100%;
-    margin-bottom: 40px;
-    margin-right: 50px;
-    /*menambahkan margin left @cepu*/
-    margin-left: 60px;
-}
-
-.judul h1 {
-    font-size: 90px;
-    font-weight: 900;
-    margin-top: -40px;
-}
-
-.subjudul {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: rgb(63, 61, 61);
-}
-
-.judul span {
-    color: #000;
-}
-
-.subjudul p {
-    line-height: 30px;
-}
-
-.judul a {
-    color: white;
-    background-color: #000;
-    border-radius: 5px;
-    padding: 12px 30px;
-}
-
-.tulisan {
+.container {
     display: flex;
 }
 
-@keyframes slidefade {
-    100% {
-        opacity: 1;
-        margin: 0;
-    }
+.slide-tulisan {
+    float: left;
+    width: 50%;
+}
+
+.judul {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin-left: 80px;
+    padding-left: 0px;
+    font-weight: 900;
+    color: white;
+    font-size: 55px;
+    line-height: 100px;
+}
+
+span {
+    color: #000;
+}
+
+.paragraf {
+    margin-left: 80px;
+    padding-top: 40px;
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333
+}
+
+.slide-gambar {
+    width: 50%;
 }
 
 .gambar {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    margin-top: -70px;
+    margin-right: 60px;
 }
 
 .gambar img {
-    width: 100%;
-    height: 110%;
+    max-width: 86%;
 }
+
+.judul a {
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.judul a:hover {
+    background-color: #04490b;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.judul a:active {
+    background-color: #033b07;
+}
+/* ---------------------------------------------Akhir Banner @ardhika---------------------------------------------------- */
 
 /*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
 footer{
