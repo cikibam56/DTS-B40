@@ -358,6 +358,29 @@ http://www.justinaguilar.com/animations/css/animations.css */
   font-size: 15px;
   color: #b3aeb5;
 }
+
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .headingj h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+}
 /* END JANUAR */
 
 /*LEBIH BAGUS KALO DI BUATIN FILE RESPONSIVE.CSS SENDIRI INI CUMA ISENG DOANG 
