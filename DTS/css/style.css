@@ -177,6 +177,179 @@ span {
 }
 /* ---------------------------------------------Akhir Banner @ardhika---------------------------------------------------- */
 
+/*--------------------------------------------- Konten Extra 1 @Rizal ------------------------------------------------------------  */
+
+
+/*--------- Judul Extra ---------  */
+
+.judul-extra1 {
+    margin: 50px 0;
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+
+/*--------- Konten Extra 1 ---------  */
+
+.main-extra1 {
+    width: 33.33333333%;
+    float: left;
+}
+
+.extra1 {
+    margin: auto;
+    padding: 0 20px;
+    height: 850px;
+}
+
+
+/*--------- Gambar Extra 1 ---------  */
+
+.gambar-extra1 {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*--------- Judul Extra 1 ---------  */
+
+.nama-extra1 {
+    font-size: 20px;
+    margin: 0 50px;
+    margin-top: 50px;
+    border-bottom: 10px solid rgb(241, 174, 174);
+    text-shadow: 5px 5px 5px rgb(119, 98, 98);
+}
+
+
+/*--------- isi Extra 1 ---------  */
+
+.isi-extra1 {
+    margin: 0 50px;
+    margin-top: 50px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+
+/*--------- button extra ---------  */
+
+.btn-extra1 {
+    width: 160px;
+    margin: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btn-extra1 a {
+    color: black;
+    padding: 15px 15px;
+    border: 3px solid;
+    border-color: rgb(241, 174, 174);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn-extra1:hover a {
+    background: rgb(241, 174, 174);
+    color: black;
+    padding: 20px 20px;
+}
+
+
+/*-------------------animation ---------------------------------*/
+
+
+/*LINK ANIMATION KALI MAU MAKE LUMAYAN LAH SIMPEL 
+http://www.justinaguilar.com/animations/css/animations.css */
+
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/*-------------------End animation ---------------------------------*/
+
+
+/*LEBIH BAGUS KALO DI BUATIN FILE RESPONSIVE.CSS SENDIRI INI CUMA ISENG DOANG 
+KEPUTUSAN ADA DI KETUA MAU DI PAKE APA ENGGA */
+
+
+/*----------------------Responsive Web Design-----------------------*/
+
+
+/*----------untuk tablet----------*/
+
+@media all and (max-width: 1000px) {
+    /*----------Bagian Extra 1----------*/
+    .main-extra1 {
+        width: 80%;
+    }
+    .judul-extra1 h1 {
+        margin-bottom: 150px;
+    }
+}
+
+
+/*----------untuk smartphone----------*/
+
+@media only screen and (max-width: 670px) {
+    .main-extra1 {
+        width: 100%;
+    }
+    .judul-extra1 h1 {
+        margin-bottom: 150px;
+    }
+}
+
+
+/*----------------------Responsive Web Design-----------------------*/
+/*---------------------------------------------End Konten Extra 1 @Rizal ------------------------------------------------------------  */
+
+
 /*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
 footer{
     position: relative;
