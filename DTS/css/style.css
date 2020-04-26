@@ -419,7 +419,73 @@ KEPUTUSAN ADA DI KETUA MAU DI PAKE APA ENGGA */
 
 /*----------------------Responsive Web Design-----------------------*/
 /*---------------------------------------------End Konten Extra 1 @Rizal ------------------------------------------------------------  */
+/*-------Injeksi Rizky*---------*/
+.extra2head{
+    height: 900px;
+}
 
+
+.container2 {
+    margin: auto;
+}
+
+.extra2 img{
+    width: 100%;
+    text-align: center;     
+}
+
+.extra2{
+    margin: auto;
+    float: left;
+    width: 50%;
+    background-color: mistyrose;
+    height: 600px;  
+}
+
+.kontenekstra2{
+    background-color: rosybrown;
+    height: 600px;
+}
+
+.kontenekstra2 h1{
+    font-size: 120px;   
+    padding-top: 40px;
+    padding-left: 40px;   
+}
+span{
+    color: white;
+}
+
+.kontenekstra2 p{
+    font-size: 17px;   
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+}
+
+.btn-extra2{
+    width: 200px;
+    margin: 0 50px;
+    margin-top: 50px;  
+}
+
+.btn-extra2 a{
+    color: teal;
+    padding: 15px 15px;
+    border: 3px solid;
+    border-color: tomato;
+    border-radius: 10px;
+    font-size: 23px;
+    background-color: snow;
+}
+
+.btn-extra2:hover a {
+    background: moccasin;
+    color: black;
+    padding: 20px 20px;
+}
+/*-------Injeksi Rizky*---------/
 
 /*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
 footer{
