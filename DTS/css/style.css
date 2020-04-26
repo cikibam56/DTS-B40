@@ -319,6 +319,12 @@ http://www.justinaguilar.com/animations/css/animations.css */
 /*-------------------End animation ---------------------------------*/
 
 /* JANUAR */
+.containerj {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
