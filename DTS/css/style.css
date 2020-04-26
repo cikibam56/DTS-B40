@@ -359,6 +359,10 @@ http://www.justinaguilar.com/animations/css/animations.css */
   color: #b3aeb5;
 }
 
+.clear {
+  clear: left;
+}
+
 /* Untuk Tablets */
 @media (max-width: 1000px) {
   .lesson {
