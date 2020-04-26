@@ -320,21 +320,23 @@ http://www.justinaguilar.com/animations/css/animations.css */
 
 /* JANUAR */
 .containerj {
-  width: 1170px;
+  max-width:1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.lesson-wrapper {
-  height: 500px;
+.lesson-wrapper {    
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
 }
 
 .headingj {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   color: #5f5d60;
 }
 
@@ -354,7 +356,7 @@ http://www.justinaguilar.com/animations/css/animations.css */
 .txt-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
 }
@@ -368,10 +370,6 @@ http://www.justinaguilar.com/animations/css/animations.css */
   .lesson {
     width: 50%;
     margin-bottom: 50px;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 32px;
   }
   
   .headingj h1 {
